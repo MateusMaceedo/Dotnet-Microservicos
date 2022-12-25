@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/test/Cadastrador.Tests/Cadastrador.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj",
+        "projectName": "Cadastrador",
+        "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj",
+        "packagesPath": "/home/mateus/.nuget/packages/",
+        "outputPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mateus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.linux-x64",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/test/Cadastrador.Tests/Cadastrador.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/test/Cadastrador.Tests/Cadastrador.Tests.csproj",
+        "projectName": "Cadastrador.Tests",
+        "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/test/Cadastrador.Tests/Cadastrador.Tests.csproj",
+        "packagesPath": "/home/mateus/.nuget/packages/",
+        "outputPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/test/Cadastrador.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mateus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj": {
+                "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.0.1, )"
+            },
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.5.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
