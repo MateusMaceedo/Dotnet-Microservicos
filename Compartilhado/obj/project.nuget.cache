@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "p4hTiRS8PwA29CTOu965svIug9lDrmrLtmUQ7SZFnJOPl7LulvCi/gktrzbn5/ERzr3lDlTmGNVAV8gKUpbNwg==",
+  "success": true,
+  "projectFilePath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/Compartilhado.csproj",
+  "expectedPackageFiles": [
+    "/home/mateus/.nuget/packages/awssdk.core/3.7.103.6/awssdk.core.3.7.103.6.nupkg.sha512",
+    "/home/mateus/.nuget/packages/awssdk.dynamodbv2/3.7.101.14/awssdk.dynamodbv2.3.7.101.14.nupkg.sha512"
+  ],
+  "logs": []
+}
