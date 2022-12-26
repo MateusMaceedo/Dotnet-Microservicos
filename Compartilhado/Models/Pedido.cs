@@ -1,30 +1,29 @@
-using System.Text.Json.Serialization;
 using Amazon.DynamoDBv2.DataModel;
 
 namespace Compartilhado.Models
 {
-  [DynamoDBTable("pedidos")]
+    [DynamoDBTable("pedidos")]
     public class Pedido
     {
-        [JsonPropertyName("id")]
+        [DynamoDBHashKey("id")]
         public string? Id { get; set; }
-        [JsonPropertyName("valor_total")]
+        [DynamoDBProperty("valor_total")]
         public decimal ValorTotal { get; set; }
-        [JsonPropertyName("data_de_criacao")]
+        [DynamoDBProperty("data_de_criacao")]
         public DateTime DataDeCriacao { get; set; }
-        [JsonPropertyName("produtos")]
+        [DynamoDBProperty("produtos")]
         public List<Produto>? Produtos { get; set; }
-        [JsonPropertyName("cliente")]
+        [DynamoDBProperty("cliente")]
         public Cliente? Cliente { get; set; }
-        [JsonPropertyName("pagamento")]
+        [DynamoDBProperty("pagamento")]
         public Pagamento? Pagamento { get; set; }
-        [JsonPropertyName("justificativa")]
+        [DynamoDBProperty("justificativa")]
         public string? Justificativa { get; set; }
-        [JsonPropertyName("status")]
+        [DynamoDBProperty("status")]
         public string? Status { get; set; }
-        [JsonPropertyName("pago")]
+        [DynamoDBProperty("pago")]
         public bool Pago { get; set; }
-        [JsonPropertyName("faturado")]
+        [DynamoDBProperty("faturado")]
         public bool Faturado { get; set; }
     }
 }

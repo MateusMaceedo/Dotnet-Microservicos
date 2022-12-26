@@ -31,3 +31,4 @@
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.pdb
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/pedido-exeplo.json

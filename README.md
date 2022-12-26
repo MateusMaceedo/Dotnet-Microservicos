@@ -18,6 +18,9 @@ Criando a classlib:
 Criando uma solução:
 ``` dotnet new sln -o AppWeb ```
 
+Publicar a lambda na AWS:
+``` dotnet publish -p:PublishReadyToRun=true ```
+
 - Documentação para criar API via CLI do dotnet:
 https://www.macoratti.net/19/10/net_climp1.htm
 

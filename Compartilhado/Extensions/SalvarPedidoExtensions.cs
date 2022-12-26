@@ -9,7 +9,7 @@ namespace Compartilhado.Extensions
   {
     public static async Task SalvarAsync(this Pedido pedido)
     {
-      var client = new AmazonDynamoDBClient(RegionEndpoint.SAEast1);
+      var client = new AmazonDynamoDBClient(RegionEndpoint.USEast1);
       var context = new DynamoDBContext(client);
       await context.SaveAsync(pedido);
     }

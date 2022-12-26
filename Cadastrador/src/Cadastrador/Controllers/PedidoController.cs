@@ -4,18 +4,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cadastrador.Controllers
 {
-  [Route("[controller]")]
-    public class PedidoController : Controller
+  [Route("api/[controller]")]
+  public class PedidoController : ControllerBase
+  {
+    [HttpPost]
+    public async Task PostAsync([FromBody] Pedido pedido)
     {
-        [HttpPost]
-        public async Task PostAsync([FromBody] Pedido pedido)
-        {
-            pedido.Id = Guid.NewGuid().ToString();
-            pedido.DataDeCriacao = DateTime.Now;
+      pedido.Id = Guid.NewGuid().ToString();
+      pedido.DataDeCriacao = DateTime.Now;
 
-            await pedido.SalvarAsync();
+      await pedido.SalvarAsync();
 
-            Console.WriteLine($"Pedido salvo com sucesso: id {pedido.Id}");
-        }
+      Console.WriteLine($"Pedido salvo com sucesso: id {pedido.Id}");
     }
+  }
 }
