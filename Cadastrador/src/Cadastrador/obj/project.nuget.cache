@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "snVsme402e5NIpr8xZ4dKZ2ZvhIjZFgVvvOpGlnxh71AQrJiQirers7Rlhuppwi+G4lGNrdUnn341LiMiAZTKA==",
+  "dgSpecHash": "fwtdYdk3+jdyJKiJ+cBMN7Xhfb9hIui8uGRvPEk0rh7oMtVzg+wxU1s00wBPKYzx0CFbyaajn9O7gik8iayGAA==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj",
   "expectedPackageFiles": [
-    "/home/mateus/.nuget/packages/amazon.lambda.apigatewayevents/2.5.0/amazon.lambda.apigatewayevents.2.5.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/amazon.lambda.apigatewayevents/2.4.0/amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/amazon.lambda.applicationloadbalancerevents/2.1.0/amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
-    "/home/mateus/.nuget/packages/amazon.lambda.aspnetcoreserver/7.3.0/amazon.lambda.aspnetcoreserver.7.3.0.nupkg.sha512",
-    "/home/mateus/.nuget/packages/amazon.lambda.core/2.1.0/amazon.lambda.core.2.1.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/amazon.lambda.aspnetcoreserver/5.3.0/amazon.lambda.aspnetcoreserver.5.3.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/amazon.lambda.core/1.2.0/amazon.lambda.core.1.2.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/amazon.lambda.logging.aspnetcore/3.1.0/amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
-    "/home/mateus/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.3.0/amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.1.0/amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.configuration/2.1.0/microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.0/microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.configuration.binder/2.1.0/microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
@@ -18,6 +18,7 @@
     "/home/mateus/.nuget/packages/microsoft.extensions.logging.abstractions/2.1.0/microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.options/2.1.0/microsoft.extensions.options.2.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.primitives/2.1.0/microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/system.io.pipelines/4.7.2/system.io.pipelines.4.7.2.nupkg.sha512",
     "/home/mateus/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/6.0.11/microsoft.netcore.app.crossgen2.linux-x64.6.0.11.nupkg.sha512"
