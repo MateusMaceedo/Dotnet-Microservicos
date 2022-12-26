@@ -1,3 +1,5 @@
+using Compartilhado.Extensions;
+using Compartilhado.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cadastrador.Controllers

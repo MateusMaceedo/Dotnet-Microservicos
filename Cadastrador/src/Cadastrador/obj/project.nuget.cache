@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fwtdYdk3+jdyJKiJ+cBMN7Xhfb9hIui8uGRvPEk0rh7oMtVzg+wxU1s00wBPKYzx0CFbyaajn9O7gik8iayGAA==",
+  "dgSpecHash": "nUf6OxnIdKGvG237v6J7y+zSbllwpLLjspvmOkb9aZ031NKzLy6i7UATXGbQW7T2R+piynWLUHvnZQAR8E3apg==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "/home/mateus/.nuget/packages/amazon.lambda.core/1.2.0/amazon.lambda.core.1.2.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/amazon.lambda.logging.aspnetcore/3.1.0/amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.1.0/amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/awssdk.core/3.7.103.6/awssdk.core.3.7.103.6.nupkg.sha512",
+    "/home/mateus/.nuget/packages/awssdk.dynamodbv2/3.7.101.14/awssdk.dynamodbv2.3.7.101.14.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.configuration/2.1.0/microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.0/microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.configuration.binder/2.1.0/microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",

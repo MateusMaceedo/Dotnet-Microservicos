@@ -27,3 +27,7 @@
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/ref/Cadastrador.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/Cadastrador.pdb
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/Cadastrador.genruntimeconfig.cache
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/AWSSDK.Core.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.pdb

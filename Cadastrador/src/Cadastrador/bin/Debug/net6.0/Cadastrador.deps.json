@@ -8,13 +8,14 @@
     ".NETCoreApp,Version=v6.0": {
       "Cadastrador/1.0.0": {
         "dependencies": {
-          "Amazon.Lambda.AspNetCoreServer": "7.3.0"
+          "Amazon.Lambda.AspNetCoreServer": "5.3.0",
+          "Compartilhado": "1.0.0"
         },
         "runtime": {
           "Cadastrador.dll": {}
         }
       },
-      "Amazon.Lambda.APIGatewayEvents/2.5.0": {
+      "Amazon.Lambda.APIGatewayEvents/2.4.0": {
         "runtime": {
           "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -30,24 +31,25 @@
           }
         }
       },
-      "Amazon.Lambda.AspNetCoreServer/7.3.0": {
+      "Amazon.Lambda.AspNetCoreServer/5.3.0": {
         "dependencies": {
-          "Amazon.Lambda.APIGatewayEvents": "2.5.0",
+          "Amazon.Lambda.APIGatewayEvents": "2.4.0",
           "Amazon.Lambda.ApplicationLoadBalancerEvents": "2.1.0",
-          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.Core": "1.2.0",
           "Amazon.Lambda.Logging.AspNetCore": "3.1.0",
-          "Amazon.Lambda.Serialization.SystemTextJson": "2.3.0"
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.1.0",
+          "System.IO.Pipelines": "4.7.2"
         },
         "runtime": {
-          "lib/net6.0/Amazon.Lambda.AspNetCoreServer.dll": {
+          "lib/netcoreapp3.1/Amazon.Lambda.AspNetCoreServer.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.4.0"
           }
         }
       },
-      "Amazon.Lambda.Core/2.1.0": {
+      "Amazon.Lambda.Core/1.2.0": {
         "runtime": {
-          "lib/net6.0/Amazon.Lambda.Core.dll": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -55,7 +57,7 @@
       },
       "Amazon.Lambda.Logging.AspNetCore/3.1.0": {
         "dependencies": {
-          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.Core": "1.2.0",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0",
           "Microsoft.Extensions.Logging": "2.1.0",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.0"
@@ -67,14 +69,33 @@
           }
         }
       },
-      "Amazon.Lambda.Serialization.SystemTextJson/2.3.0": {
+      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
         "dependencies": {
-          "Amazon.Lambda.Core": "2.1.0"
+          "Amazon.Lambda.Core": "1.2.0"
         },
         "runtime": {
-          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.103.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.103.6"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.101.14": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.103.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.14"
           }
         }
       },
@@ -115,8 +136,17 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.0"
         }
       },
+      "System.IO.Pipelines/4.7.2": {},
       "System.Memory/4.5.0": {},
-      "System.Runtime.CompilerServices.Unsafe/4.5.0": {}
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {},
+      "Compartilhado/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.101.14"
+        },
+        "runtime": {
+          "Compartilhado.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -125,12 +155,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Amazon.Lambda.APIGatewayEvents/2.5.0": {
+    "Amazon.Lambda.APIGatewayEvents/2.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-u2M1e8e+eahgwSpa2jhBaakH37EgIZcHqmqpK/9DD/PMygxK5g7LPyUl6SRFnVnmVyD0zvjEh8lYnpYULY6WIQ==",
-      "path": "amazon.lambda.apigatewayevents/2.5.0",
-      "hashPath": "amazon.lambda.apigatewayevents.2.5.0.nupkg.sha512"
+      "sha512": "sha512-QDDGZq2RwY4BBn2ai/dLLCdeHZBp1cSwqrjAe/m371z6Sv6pza8ZsVnZYxE+Dqmhh4UF0uZ6t520tVqOYcEzzQ==",
+      "path": "amazon.lambda.apigatewayevents/2.4.0",
+      "hashPath": "amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512"
     },
     "Amazon.Lambda.ApplicationLoadBalancerEvents/2.1.0": {
       "type": "package",
@@ -139,19 +169,19 @@
       "path": "amazon.lambda.applicationloadbalancerevents/2.1.0",
       "hashPath": "amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512"
     },
-    "Amazon.Lambda.AspNetCoreServer/7.3.0": {
+    "Amazon.Lambda.AspNetCoreServer/5.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y6q+p9pIQTYGJt/8Hziw4aHEqKKgi0B3LC/1itMlA0LbmePTFGlxKBfiSFuq6R2Ex7BeLZw4Ei9uFy9mqlxjpA==",
-      "path": "amazon.lambda.aspnetcoreserver/7.3.0",
-      "hashPath": "amazon.lambda.aspnetcoreserver.7.3.0.nupkg.sha512"
+      "sha512": "sha512-b9TCHD4B+s/udRSjmZTfyEZAwLjo6jgr3w81H9QwVYiq6XPT4Qru++/LPFqgOlz8ZOfMjdY5kLUh9i4lhHOEAw==",
+      "path": "amazon.lambda.aspnetcoreserver/5.3.0",
+      "hashPath": "amazon.lambda.aspnetcoreserver.5.3.0.nupkg.sha512"
     },
-    "Amazon.Lambda.Core/2.1.0": {
+    "Amazon.Lambda.Core/1.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ok06UhfBZw6j6+PhiJR9C0EOMuJvnq8rMCHVkaFmPFrlI/q447ukwGZQKaAKqodV+MNTfpb/iPxjgUPVbSlVVw==",
-      "path": "amazon.lambda.core/2.1.0",
-      "hashPath": "amazon.lambda.core.2.1.0.nupkg.sha512"
+      "sha512": "sha512-goaq1LaH1UJB18BNG/Apxmn0P7dAlLWFbxU2nKxK+M4lH2KJaZDbtlP2gFEAJ+aENOMBHthaLPEtk3944J2OOg==",
+      "path": "amazon.lambda.core/1.2.0",
+      "hashPath": "amazon.lambda.core.1.2.0.nupkg.sha512"
     },
     "Amazon.Lambda.Logging.AspNetCore/3.1.0": {
       "type": "package",
@@ -160,12 +190,26 @@
       "path": "amazon.lambda.logging.aspnetcore/3.1.0",
       "hashPath": "amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512"
     },
-    "Amazon.Lambda.Serialization.SystemTextJson/2.3.0": {
+    "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qgFCDJp5lyUNqCq1z18U7fZ/+rmMyw6RJf9nKfnJrf79YupDj02klQAjxymEYN66NykWXyc68SGkow6fy53hfg==",
-      "path": "amazon.lambda.serialization.systemtextjson/2.3.0",
-      "hashPath": "amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512"
+      "sha512": "sha512-q2R4I77NrrAHDpcaWby9VA/XhE1tjG/2kpredwucRq7k4dTPCqqB7OFmbiFdlfuErrp2/9+X1l62c4unwVicpw==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.103.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9taEwfYXx7o94lDJrr9gJ94vGjwWiWjWKGIR0jOlIBZ6mtoW0sMXpqdbxvSa1eI9cU66wMfSmIEPrcvguwbHw==",
+      "path": "awssdk.core/3.7.103.6",
+      "hashPath": "awssdk.core.3.7.103.6.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.101.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FoXR7KsGcd0konXhv6GEfTZOoMR5c4YU73iMSlj3OMQaGgOb0Ep3BfDPYPJrPySkJ3pbOkJNVmCSnqSeLKCeaw==",
+      "path": "awssdk.dynamodbv2/3.7.101.14",
+      "hashPath": "awssdk.dynamodbv2.3.7.101.14.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/2.1.0": {
       "type": "package",
@@ -223,6 +267,13 @@
       "path": "microsoft.extensions.primitives/2.1.0",
       "hashPath": "microsoft.extensions.primitives.2.1.0.nupkg.sha512"
     },
+    "System.IO.Pipelines/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rGIIhoY3lUdn9rWeuGdgeZZ0P+SpJ1wZI5g8TnXqgvuhFgUP7iP9Nt5FZebYInQZQxqnwjPxdYYBE5l/8PJmqQ==",
+      "path": "system.io.pipelines/4.7.2",
+      "hashPath": "system.io.pipelines.4.7.2.nupkg.sha512"
+    },
     "System.Memory/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -236,6 +287,11 @@
       "sha512": "sha512-YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
       "path": "system.runtime.compilerservices.unsafe/4.5.0",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+    },
+    "Compartilhado/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

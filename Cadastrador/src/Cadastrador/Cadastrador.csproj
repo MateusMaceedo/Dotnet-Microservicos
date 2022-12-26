@@ -15,6 +15,6 @@
     <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="5.3.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="\..\Compartilhado\Compartilhado.csproj" />
+    <ProjectReference Include="..\..\..\Compartilhado\Compartilhado.csproj" />
   </ItemGroup>
 </Project>
