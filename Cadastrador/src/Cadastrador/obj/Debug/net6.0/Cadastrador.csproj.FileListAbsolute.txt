@@ -1,6 +1,7 @@
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/appsettings.Development.json
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/appsettings.json
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/aws-lambda-tools-defaults.json
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/pedido-exeplo.json
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Cadastrador
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Cadastrador.deps.json
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Cadastrador.runtimeconfig.json
@@ -11,8 +12,13 @@
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Amazon.Lambda.ApplicationLoadBalancerEvents.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Amazon.Lambda.AspNetCoreServer.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Amazon.Lambda.Core.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Amazon.Lambda.DynamoDBEvents.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Amazon.Lambda.Logging.AspNetCore.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/AWSSDK.Core.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.dll
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.pdb
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/Cadastrador.csproj.AssemblyReference.cache
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/Cadastrador.GeneratedMSBuildEditorConfig.editorconfig
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/Cadastrador.AssemblyInfoInputs.cache
@@ -27,8 +33,3 @@
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/ref/Cadastrador.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/Cadastrador.pdb
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/Debug/net6.0/Cadastrador.genruntimeconfig.cache
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/AWSSDK.Core.dll
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/AWSSDK.DynamoDBv2.dll
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.dll
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/Compartilhado.pdb
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/bin/Debug/net6.0/pedido-exeplo.json

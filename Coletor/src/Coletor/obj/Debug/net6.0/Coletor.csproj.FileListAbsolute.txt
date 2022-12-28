@@ -1,0 +1,5 @@
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/obj/Debug/net6.0/Coletor.csproj.AssemblyReference.cache
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/obj/Debug/net6.0/Coletor.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/obj/Debug/net6.0/Coletor.AssemblyInfoInputs.cache
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/obj/Debug/net6.0/Coletor.AssemblyInfo.cs
+/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/obj/Debug/net6.0/Coletor.csproj.CoreCompileInputs.cache

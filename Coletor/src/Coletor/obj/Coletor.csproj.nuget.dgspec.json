@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj": {}
+    "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/Coletor.csproj": {}
   },
   "projects": {
-    "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj": {
+    "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/Coletor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj",
-        "projectName": "Cadastrador",
-        "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/Cadastrador.csproj",
+        "projectUniqueName": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/Coletor.csproj",
+        "projectName": "Coletor",
+        "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/Coletor.csproj",
         "packagesPath": "/home/mateus/.nuget/packages/",
-        "outputPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Cadastrador/src/Cadastrador/obj/",
+        "outputPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mateus/.nuget/NuGet/NuGet.Config"
@@ -41,12 +41,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Amazon.Lambda.AspNetCoreServer": {
-              "target": "Package",
-              "version": "[5.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -64,9 +58,6 @@
             }
           ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

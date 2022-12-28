@@ -1,5 +1,0 @@
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/publish/Compartilhado.dll
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/publish/Compartilhado.deps.json
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/publish/Compartilhado.pdb
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/publish/AWSSDK.Core.dll
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/publish/AWSSDK.DynamoDBv2.dll

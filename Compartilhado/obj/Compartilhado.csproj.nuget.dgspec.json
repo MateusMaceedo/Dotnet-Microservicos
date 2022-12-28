@@ -41,6 +41,18 @@
             "AWSSDK.DynamoDBv2": {
               "target": "Package",
               "version": "[3.7.101.14, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.DynamoDBEvents": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             }
           },
           "imports": [

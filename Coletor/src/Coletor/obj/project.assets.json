@@ -55,6 +55,22 @@
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
         }
+      },
+      "Compartilhado/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.101.14",
+          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.DynamoDBEvents": "2.1.1",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Compartilhado.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Compartilhado.dll": {}
+        }
       }
     }
   },
@@ -157,14 +173,16 @@
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
+    },
+    "Compartilhado/1.0.0": {
+      "type": "project",
+      "path": "../../../Compartilhado/Compartilhado.csproj",
+      "msbuildProject": "../../../Compartilhado/Compartilhado.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AWSSDK.DynamoDBv2 >= 3.7.101.14",
-      "Amazon.Lambda.Core >= 2.1.0",
-      "Amazon.Lambda.DynamoDBEvents >= 2.1.1",
-      "Amazon.Lambda.Serialization.SystemTextJson >= 2.3.0"
+      "Compartilhado >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -173,11 +191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/Compartilhado.csproj",
-      "projectName": "Compartilhado",
-      "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/Compartilhado.csproj",
+      "projectUniqueName": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/Coletor.csproj",
+      "projectName": "Coletor",
+      "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/Coletor.csproj",
       "packagesPath": "/home/mateus/.nuget/packages/",
-      "outputPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/obj/",
+      "outputPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Coletor/src/Coletor/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mateus/.nuget/NuGet/NuGet.Config"
@@ -191,7 +209,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/Compartilhado.csproj": {
+              "projectPath": "/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/Compartilhado.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -203,24 +225,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "AWSSDK.DynamoDBv2": {
-            "target": "Package",
-            "version": "[3.7.101.14, )"
-          },
-          "Amazon.Lambda.Core": {
-            "target": "Package",
-            "version": "[2.1.0, )"
-          },
-          "Amazon.Lambda.DynamoDBEvents": {
-            "target": "Package",
-            "version": "[2.1.1, )"
-          },
-          "Amazon.Lambda.Serialization.SystemTextJson": {
-            "target": "Package",
-            "version": "[2.3.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -231,6 +235,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.linux-x64",
+            "version": "[6.0.11, 6.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

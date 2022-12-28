@@ -40,13 +40,25 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Amazon.Lambda.Core/1.2.0": {
+      "Amazon.Lambda.Core/2.1.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+          "lib/net6.0/Amazon.Lambda.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+          "lib/net6.0/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.DynamoDBEvents/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.3.24"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.DynamoDBEvents.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.DynamoDBEvents.dll": {}
         }
       },
       "Amazon.Lambda.Logging.AspNetCore/3.1.0": {
@@ -64,16 +76,16 @@
           "lib/netstandard2.0/Amazon.Lambda.Logging.AspNetCore.dll": {}
         }
       },
-      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+      "Amazon.Lambda.Serialization.SystemTextJson/2.3.0": {
         "type": "package",
         "dependencies": {
-          "Amazon.Lambda.Core": "1.2.0"
+          "Amazon.Lambda.Core": "2.1.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
         }
       },
       "AWSSDK.Core/3.7.103.6": {
@@ -223,7 +235,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "AWSSDK.DynamoDBv2": "3.7.101.14"
+          "AWSSDK.DynamoDBv2": "3.7.101.14",
+          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.DynamoDBEvents": "2.1.1",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.3.0"
         },
         "compile": {
           "bin/placeholder/Compartilhado.dll": {}
@@ -280,19 +295,35 @@
         "lib/netstandard2.0/Amazon.Lambda.AspNetCoreServer.xml"
       ]
     },
-    "Amazon.Lambda.Core/1.2.0": {
-      "sha512": "goaq1LaH1UJB18BNG/Apxmn0P7dAlLWFbxU2nKxK+M4lH2KJaZDbtlP2gFEAJ+aENOMBHthaLPEtk3944J2OOg==",
+    "Amazon.Lambda.Core/2.1.0": {
+      "sha512": "ok06UhfBZw6j6+PhiJR9C0EOMuJvnq8rMCHVkaFmPFrlI/q447ukwGZQKaAKqodV+MNTfpb/iPxjgUPVbSlVVw==",
       "type": "package",
-      "path": "amazon.lambda.core/1.2.0",
+      "path": "amazon.lambda.core/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "amazon.lambda.core.1.2.0.nupkg.sha512",
+        "README.md",
+        "amazon.lambda.core.2.1.0.nupkg.sha512",
         "amazon.lambda.core.nuspec",
-        "lib/netstandard1.3/Amazon.Lambda.Core.dll",
-        "lib/netstandard1.3/Amazon.Lambda.Core.xml",
+        "lib/net6.0/Amazon.Lambda.Core.dll",
+        "lib/net6.0/Amazon.Lambda.Core.xml",
         "lib/netstandard2.0/Amazon.Lambda.Core.dll",
         "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.DynamoDBEvents/2.1.1": {
+      "sha512": "AJp3qd/0jlfD0vNoG/bRxs2ehsH/Mm1chCjr199T3Juxqw/T5QjKgUwQOKJR2srMDKWUcDL/g373hqJXZr/zWw==",
+      "type": "package",
+      "path": "amazon.lambda.dynamodbevents/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.dynamodbevents.2.1.1.nupkg.sha512",
+        "amazon.lambda.dynamodbevents.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.DynamoDBEvents.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.DynamoDBEvents.xml",
+        "lib/netstandard2.0/Amazon.Lambda.DynamoDBEvents.dll",
+        "lib/netstandard2.0/Amazon.Lambda.DynamoDBEvents.xml"
       ]
     },
     "Amazon.Lambda.Logging.AspNetCore/3.1.0": {
@@ -308,15 +339,18 @@
         "lib/netstandard2.0/Amazon.Lambda.Logging.AspNetCore.xml"
       ]
     },
-    "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
-      "sha512": "q2R4I77NrrAHDpcaWby9VA/XhE1tjG/2kpredwucRq7k4dTPCqqB7OFmbiFdlfuErrp2/9+X1l62c4unwVicpw==",
+    "Amazon.Lambda.Serialization.SystemTextJson/2.3.0": {
+      "sha512": "qgFCDJp5lyUNqCq1z18U7fZ/+rmMyw6RJf9nKfnJrf79YupDj02klQAjxymEYN66NykWXyc68SGkow6fy53hfg==",
       "type": "package",
-      "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
+      "path": "amazon.lambda.serialization.systemtextjson/2.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+        "README.md",
+        "amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
         "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
         "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
         "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
       ]

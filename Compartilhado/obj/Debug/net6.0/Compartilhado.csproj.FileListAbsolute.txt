@@ -2,7 +2,6 @@
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/Compartilhado.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/ref/Compartilhado.dll
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/bin/Debug/net6.0/Compartilhado.pdb
-/home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/obj/Debug/net6.0/Compartilhado.csproj.AssemblyReference.cache
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/obj/Debug/net6.0/Compartilhado.GeneratedMSBuildEditorConfig.editorconfig
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/obj/Debug/net6.0/Compartilhado.AssemblyInfoInputs.cache
 /home/mateus/projetos/dotnet/Dotnet-Microservicos/Compartilhado/obj/Debug/net6.0/Compartilhado.AssemblyInfo.cs
